@@ -1,0 +1,56 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Diseño/Pickle_Rick.jpg);
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.50);
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container_pag{
+    width: 500px;
+    height: 50px;
+    position: relative;
+}
+
+.container_pag__buttons{
+    position: absolute;
+    left: 200px;
+}
+
+.buttonClass{
+    
+}
