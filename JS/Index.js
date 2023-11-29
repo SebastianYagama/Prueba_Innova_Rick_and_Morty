@@ -1,20 +1,18 @@
 
 const urlRickandMorty ="https://rickandmortyapi.com/api/character";
 
-(function(){
-    const charactersTable = document.getElementById('charactersTable');
-    
-    const pagination = document.getElementById('pagination__Button');
+const pagination = document.getElementById('pagination__Button');
 
-    let prevUrl;
-    let nextUrl;
-    
-    let btnPrevious;
-    let btnNext;
-    
-    getInfo(urlRickandMorty);
 
-})();
+const charactersTable = document.getElementById('charactersTable');
+
+let prevUrl;
+let nextUrl;
+
+let btnPrevious;
+let btnNext;
+
+getInfo(urlRickandMorty);
 
 async function getInfo(url_Prev_Next) {
 
@@ -37,7 +35,7 @@ function displayCharacters (data_Char){
     for(let character of data_Char) {
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td class="characterName" data-id="${character.id}"><a href = "ItemDetail.html?id=${character.id}">${character.name}</a></td>
+            <td class="characterName" data-id="${character.id}"><a href = "./ItemDetail.html?id=${character.id}">${character.name}</a></td>
             <td><img src="${character.image}" alt="${character.name}"></td>
         `;
         tbody.appendChild(row); 
@@ -62,12 +60,9 @@ function change_button_prev(){
     if (prevUrl.split('=')[1] == 1){
         prevUrl = urlRickandMorty;
     }
-
-    console.log("aqui estoy");
     getInfo(prevUrl);
 }
 
 function change_button_next(){
-    console.log("aqui alla");
     getInfo(nextUrl);
 }

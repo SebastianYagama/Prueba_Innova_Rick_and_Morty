@@ -1,0 +1,47 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Diseño/Pickle_Rick.jpg);
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container_char{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.50);
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+a {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30xp;
+    font-weight: bold;
+}
+

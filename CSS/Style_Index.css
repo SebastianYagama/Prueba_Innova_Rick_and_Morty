@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url(Diseño/Pickle_Rick.jpg);
+    background-image: url(../Diseño/Pickle_Rick.jpg);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1{
@@ -34,23 +35,31 @@ th {
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 250px;
+    height: 250px;
     display: block;
     margin: 0 auto;
+    
 }
 
 .container_pag{
-    width: 500px;
     height: 50px;
-    position: relative;
+    margin: 0 auto;
 }
 
 .container_pag__buttons{
-    position: absolute;
-    left: 200px;
+    text-align: center;
 }
 
 .buttonClass{
-    
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td a{
+    text-decoration: none;
 }
