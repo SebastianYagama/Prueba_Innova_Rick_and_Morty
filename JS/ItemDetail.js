@@ -21,7 +21,7 @@ fetch(urlGen)
             <p>Tipo:` + (character.type ? character.type : ' Not type') + `</p>
             <p>Género: ${character.gender}</p>
             <p>Origen: ${character.origin.name}</p>
-            <a href = "../Index.html">Volver</a>
+            <a href = "../index.html">Volver</a>
 
         `;
     })
