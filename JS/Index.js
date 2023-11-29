@@ -35,7 +35,7 @@ function displayCharacters (data_Char){
     for(let character of data_Char) {
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td class="characterName" data-id="${character.id}"><a href = "./ItemDetail.html?id=${character.id}">${character.name}</a></td>
+            <td class="characterName" data-id="${character.id}"><a href = "./HTML/ItemDetail.html?id=${character.id}">${character.name}</a></td>
             <td><img src="${character.image}" alt="${character.name}"></td>
         `;
         tbody.appendChild(row); 
